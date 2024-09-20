@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', function () {
     cardForm.addEventListener('submit', function (e) {
       e.preventDefault();
   
-      // 🚨 Get input values
+      // 🚨 Get input values for student name, personal message and course name
       const studentNameInput = document.getElementById('studentName');
-      const personalMessageInput = ;
-      const courseNameInput = ; 
+      const personalMessageInput = document.getElementById('personalMessage') ;
+      const courseNameInput = document.getElementById('courseName'); 
   
       const studentName = studentNameInput.value;
       const personalMessage = personalMessageInput.value;
