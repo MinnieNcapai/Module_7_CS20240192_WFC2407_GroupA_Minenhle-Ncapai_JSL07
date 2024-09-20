@@ -103,6 +103,14 @@ h1, .modal-content h2, .modal-content p {
   background: #f9f9f9 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
 }
 
+/* Logo styling: set size, center, and add bottom margin */
+.logo {
+  width: 320px; 
+height: auto; 
+display: block; 
+margin: 0 auto 25px; 
+}
+
 /* Adjust button styles to fit the theme */
 button {
   background-color: #659f8f;
