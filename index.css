@@ -113,11 +113,47 @@ margin: 0 auto 25px;
 
 /* Adjust button styles to fit the theme */
 button {
-  background-color: #659f8f;
+  background-color: #0a478e;
   color: #fff;
 }
 
 button:hover {
-  background-color: #5d5f5e;
+  background-color: #5b627b;
 }
 
+/* Dark theme Styling */
+body.dark-theme {
+  background-color: #3f6081; /* Dark background  for the page*/
+  color: #ecf0f1; /* Light text color for readability*/
+}
+
+body.dark-theme h1 {
+  color: #dae6ed;  /* Lighter color for headings in dark theme */
+}
+
+body.dark-theme #cardForm {
+  background-color: #3f6081; /* Dark background for dark theme */
+  color: #ecf0f1; /* Light text color */
+}
+
+.modal-content.dark-theme {
+  background-color: #3f6081; /* Dark modal background */
+  color: #ecf0f1; /* Light text  for modal content*/
+}
+
+button.dark-theme {
+  background-color: #9e9481; /* Dark mode button color */
+  color: #fff; /* Light text color for buttons */
+}
+
+
+#certificateContent.dark-theme {
+  background:#3f6081; /* Dark background for certificate content */
+  color: #ecf0f1; /* Light text for certificate content   */
+}
+
+
+/* Adding a fancy border to the certificate content (dark-theme)*/
+#certificateContent.dark-theme {
+  background: #3e4a89 url('path/to/your/decorative-border-image.png') center/contain no-repeat;
+}
